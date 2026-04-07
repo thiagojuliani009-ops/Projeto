@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "projeto"
+version = "0.1.0"
+description = "FastAPI project"
+authors = ["Thiago Juliani <thiagojuliani009@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.104.0"
+uvicorn = "^0.24.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
